@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+}
+.btn-primary.btny{
+background-color: yellow;
+color: teal;
+}
+.btn-primary.btnr{
+background-color: red;
+
+}
+.btn-primary.btnlg{
+background-color: lightgray;
+color: teal;
+}
+.btn-primary.btnbv{
+background-color: blueviolet;
+
+}
+

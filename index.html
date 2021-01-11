@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Switcher</title>
+
+    <link rel="stylesheet" href="style.css">
+   
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="head">
+          <h1 id="heading">Color Switcher</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, distinctio!</p> 
+    </div>
+ 
+    <hr>
+    <hr>
+
+    <div class="btn-body">
+        <label>Change Webpage Background To:</label><br>
+        <button type="button" class="btn btn-primary btny" onclick="changeBodyBg('yellow');">Yellow</button>
+        <button type="button" class="btn btn-primary btnr" onclick="changeBodyBg('red');">Red</button>
+        <button type="button" class="btn btn-primary btnlg" onclick="changeBodyBg('lightgray');">Gray</button>
+        <button type="button" class="btn btn-primary btnbv" onclick="changeBodyBg('blueviolet');">Blue Violet</button>
+
+    </div>
+    <br>
+    <br>
+    <div class="btn-heading">
+        <label for="">Change Your Heading Background Color To:</label><br>
+        <button type="button" class="btn btn-light btnb" onclick="changeHeadingBg('brown');">Brown</button>
+        <button type="button" class="btn btn-light btncb" onclick="changeHeadingBg('cadetblue');">CadetBlue</button>
+        <button type="button" class="btn btn-light btnm" onclick="changeHeadingBg('maroon');">Maroon</button>
+      
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+</html>
